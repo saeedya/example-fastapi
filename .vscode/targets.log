@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 27 19:03:24 2022
+# Make data base, printed on Sat Aug 27 20:56:03 2022
 
 # Variables
 
@@ -65,7 +65,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/saeedya/fastapi
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
@@ -87,7 +87,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9037
+VSCODE_PID = 20325
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -177,7 +177,7 @@ MANAGERPID = 2354
 # environment
 LC_MEASUREMENT = fa_IR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 9037
+GIO_LAUNCHED_DESKTOP_FILE_PID = 20325
 # environment
 _ = /usr/share/code/code
 # environment
@@ -227,9 +227,9 @@ LC_IDENTIFICATION = fa_IR.UTF-8
 
 # Directories
 
-# . (device 2053, inode 6036012): 26 files, no impossibilities.
+# . (device 2053, inode 6036012): 30 files, no impossibilities.
 
-# 26 files, no impossibilities in 1 directories.
+# 30 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,15 +279,15 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 34 / storage = 466 B / avg = 13 B
-# current buf: size = 8162 B / used = 466 B / count = 34 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 38 / storage = 508 B / avg = 13 B
+# current buf: size = 8162 B / used = 508 B / count = 38 / avg = 13 B
 
-# strcache performance: lookups = 37 / hit rate = 8%
+# strcache performance: lookups = 41 / hit rate = 7%
 # hash-table stats:
  
 make: *** No rule to make target 'all'.  Stop.
 
-# Load=34/8192=0%, Rehash=0, Collisions=0/37=0%
-# Finished Make data base on Sat Aug 27 19:03:24 2022
+# Load=38/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Sat Aug 27 20:56:03 2022
 
  
