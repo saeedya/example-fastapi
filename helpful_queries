@@ -1,6 +1,0 @@
-select posts.id, email from posts left join users ON posts.owner_id = users.id;
-select users.id, count(*) from posts left join users ON posts.owner_id = users.id group by users.id;
-select * from posts RIGHT join users ON posts.owner_id = users.id;
-select users.id, count(posts.id) from posts RIGHT join users ON posts.owner_id = users.id group by users.id;
-select users.id, count(posts.id) as user_post_count from posts RIGHT join users ON posts.owner_id = users.id group by users.id;
-select posts.id, count(votes.post_id) from posts left join votes on posts.id = votes.post_id group by posts.id;
